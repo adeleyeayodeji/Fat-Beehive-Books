@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit21a5dc7146d1a0999aee16b4980ef2fb
 {
+    public static $files = array (
+        'bb387f5824fd010e49f2fc16acfdbe1a' => __DIR__ . '/../..' . '/app/helpers/helper.php',
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Fat_Beehive_Books\\App\\Admin\\Admin_Core' => __DIR__ . '/../..' . '/app/admin/admin-core.php',

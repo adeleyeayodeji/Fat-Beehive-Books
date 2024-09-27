@@ -50,6 +50,9 @@
     "test": "phpunit"
   },
   "autoload": {
+    "files": [
+      "app/helpers/helper.php"
+    ],
     "classmap": [
       "core/",
       "app/"
