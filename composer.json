@@ -1,0 +1,58 @@
+{
+  "name": "fat-beehive-books/fat-beehive-books",
+  "description": "A plugin for managing books.",
+  "type": "project",
+  "config": {
+    "platform": {
+      "php": "7.4"
+    },
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "roots/wordpress-core-installer": true
+    },
+    "preferred-install": "dist",
+    "archive": {
+      "exclude": [
+        "tests",
+        "bin",
+        "docs",
+        "*.md",
+        ".*",
+        ".zip",
+        ".log",
+        ".txt",
+        ".md",
+        ".dist"
+      ]
+    }
+  },
+  "homepage": "https://wpmudev.com/",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Fat Beehive",
+      "homepage": "https://fatbeehive.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^3.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "phpcompatibility/phpcompatibility-wp": "^2.1",
+    "phpunit/phpunit": "^9",
+    "wp-phpunit/wp-phpunit": "^5",
+    "yoast/phpunit-polyfills": "^1.0",
+    "roots/wordpress": "^6.0"
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "autoload": {
+    "classmap": [
+      "core/",
+      "app/"
+    ]
+  }
+}

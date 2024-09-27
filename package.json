@@ -1,0 +1,18 @@
+{
+  "name": "fat-beehive-books",
+  "version": "0.1.0",
+  "main": "Gruntfile.js",
+  "author": "Fat Beehive",
+  "scripts": {
+    "start": "grunt default",
+    "readme": "grunt readme",
+    "build": "grunt build"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-wp-i18n": "~0.5.0",
+    "grunt-wp-readme-to-markdown": "~1.0.0"
+  }
+}

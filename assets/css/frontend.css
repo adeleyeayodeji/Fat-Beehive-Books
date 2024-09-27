@@ -1,0 +1,93 @@
+.fat-beehive-books-archive {
+	background-color: #f9f9f9;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fat-beehive-books-archive h1 {
+	font-size: 2.5em;
+	color: #333;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.fat-beehive-books-filter {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.fat-beehive-books-filter select,
+.fat-beehive-books-filter button {
+	padding: 10px;
+	font-size: 1em;
+	margin: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.fat-beehive-books-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: start;
+}
+
+.fat-beehive-books-item {
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: calc(33.333% - 20px);
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.fat-beehive-books-item h2 {
+	font-size: 1.5em;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.fat-beehive-books-item p {
+	font-size: 1em;
+	color: #666;
+}
+
+.fat-beehive-books-item img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.fat-beehive-books-single {
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: "Arial", sans-serif;
+}
+
+.fat-beehive-books-single h1 {
+	font-size: 2.5em;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.fat-beehive-books-single img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.fat-beehive-books-single p {
+	font-size: 1.2em;
+	line-height: 1.6;
+	color: #555;
+}
+
+.fat-beehive-books-single p strong {
+	font-weight: bold;
+	color: #000;
+}
